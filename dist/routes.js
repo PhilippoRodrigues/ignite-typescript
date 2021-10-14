@@ -8,8 +8,7 @@ var CreateCourseService_1 = __importDefault(require("./CreateCourseService"));
 function createCourse(request, response) {
     CreateCourseService_1.default.execute({
         name: "Nodejs",
-        educator: "Philippo",
-        duration: 10
+        educator: "Philippo"
     });
     return response.send();
 }
